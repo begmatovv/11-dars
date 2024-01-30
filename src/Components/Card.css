@@ -1,0 +1,46 @@
+.card {
+  max-width: 350px;
+  background-color: #fff;
+  padding: 32px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.card-wrapper {
+  text-align: start;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.logo-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  top: -58px;
+  border-radius: 12px;
+  width: 50px;
+  height: 50px;
+  background-color: hsl(36, 87%, 49%);
+}
+.time-job {
+  position: relative;
+  top: -40px;
+  margin-bottom: -30px;
+  display: flex;
+  gap: 10px;
+}
+.company {
+  margin-bottom: 15px;
+}
+span {
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+h3:active {
+  color: #6e8098;
+}

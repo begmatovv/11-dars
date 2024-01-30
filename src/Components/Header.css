@@ -1,0 +1,19 @@
+header {
+  background-image: url("../public/header-bg.png");
+  background-size: cover;
+}
+.header-container {
+  width: 910px;
+  padding-top: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --dark-bgc: #121721;
+}
+
+.dark-mode {
+  background-color: var(--dark-bgc);
+}

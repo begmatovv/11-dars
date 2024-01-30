@@ -1,0 +1,33 @@
+
+.filter-wrapper {
+    font-family: 'Kumbh Sans', sans-serif;
+  height: 80px;
+  background-color: #fff;
+  position: relative;
+  top: 30px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 16px;
+  margin-bottom: 80px;
+}
+.check,
+.title-wrapper,
+.location-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+input {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  border-right: 2px solid #5964e0;
+  outline: none;
+  padding: 5px;
+  border: none;
+}
